@@ -1,15 +1,15 @@
 ╔════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                  ║
-║                    FinSight Project - COMPLETION CERTIFICATE                    ║
+║                    PlaySmart Project - COMPLETION CERTIFICATE                   ║
 ║                                                                                  ║
-║              A Finance Market Analytics Dashboard Powered by Real APIs          ║
+║              A Game Deal Analytics Dashboard Powered by Real APIs               ║
 ║                                                                                  ║
 ╚════════════════════════════════════════════════════════════════════════════════╝
 
 PROJECT DELIVERY SUMMARY
 ═══════════════════════════════════════════════════════════════════════════════
 
-PROJECT NAME:   FinSight: Finance Market Analytics Dashboard
+PROJECT NAME:   PlaySmart: Game Deal Analytics Dashboard
 STATUS:         ✅ COMPLETE AND PRODUCTION-READY
 DELIVERY DATE:  January 29, 2024
 

@@ -1,4 +1,4 @@
-# FinSight Setup Guide
+# PlaySmart Setup Guide
 
 ## Step-by-Step Installation
 
@@ -20,8 +20,8 @@
 
 **Option A: Clone with Git**
 ```bash
-git clone https://github.com/yourusername/FinSight.git
-cd FinSight
+git clone https://github.com/yourusername/PlaySmart.git
+cd PlaySmart
 ```
 
 **Option B: Download ZIP**
@@ -88,11 +88,11 @@ python pipeline.py
 
 **Expected output:**
 ```
-2024-01-15 14:23:45 - __main__ - INFO - Starting FinSight Data Pipeline
-2024-01-15 14:23:46 - fetch_data - INFO - Fetching stock data for AAPL...
-2024-01-15 14:23:47 - fetch_data - INFO - Successfully fetched 3000 records for AAPL
+2024-01-15 14:23:45 - __main__ - INFO - Starting PlaySmart Data Pipeline
+2024-01-15 14:23:46 - fetch_data - INFO - Fetching game deal data...
+2024-01-15 14:23:47 - fetch_data - INFO - Successfully fetched deal records
 ...
-2024-01-15 14:25:30 - __main__ - INFO - FinSight Data Pipeline Completed Successfully!
+2024-01-15 14:25:30 - __main__ - INFO - PlaySmart Data Pipeline Completed Successfully!
 ```
 
 **This creates:**
@@ -215,7 +215,7 @@ pip install apache-airflow
 1. Create batch file `run_pipeline.bat`:
    ```
    @echo off
-   cd C:\path\to\FinSight\pipeline
+   cd C:\path\to\PlaySmart\pipeline
    python pipeline.py
    ```
 2. Open Task Scheduler

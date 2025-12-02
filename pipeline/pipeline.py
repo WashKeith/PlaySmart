@@ -41,8 +41,8 @@ class GameDealPipeline:
     def __init__(self):
         """Initialize pipeline with data directories"""
         self.base_dir = Path(__file__).parent.parent
-        self.raw_dir = self.base_dir / "data_raw"
-        self.processed_dir = self.base_dir / "data_processed"
+        self.raw_dir = self.base_dir / "raw_data"
+        self.processed_dir = self.base_dir / "processed_data"
 
         # Create directories if they don't exist
         self.raw_dir.mkdir(exist_ok=True)

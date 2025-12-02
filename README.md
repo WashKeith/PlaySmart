@@ -81,10 +81,10 @@ PlaySmart/
 │   ├── app.py                        # Main dashboard (3 pages)
 │   └── __init__.py
 │
-├── data_raw/                         # Raw data from API (generated)
+├── raw_data/                         # Raw data from API (generated)
 │   └── deals_raw_*.csv
 │
-├── data_processed/                   # Processed & enriched data (generated)
+├── processed_data/                   # Processed & enriched data (generated)
 │   ├── deals_processed_*.csv
 │   └── pipeline_summary.txt
 │
@@ -178,10 +178,10 @@ python pipeline.py
 ```
 
 **Output:**
-- Raw data saved to `data_raw/deals_raw_*.csv`
-- Processed data saved to `data_processed/deals_processed_*.csv`
+- Raw data saved to `raw_data/deals_raw_*.csv`
+- Processed data saved to `processed_data/deals_processed_*.csv`
 - Execution logs saved to `logs/pipeline_*.log`
-- Summary report in `data_processed/pipeline_summary.txt`
+- Summary report in `processed_data/pipeline_summary.txt`
 
 ### What the Pipeline Does
 
@@ -205,7 +205,7 @@ INFO:fetch_data:Successfully fetched 60 deals
 INFO:transform:Starting game deals transformation...
 INFO:transform:Calculated discount percentages
 INFO:transform:Categorized deal qualities
-INFO:__main__:Saved processed deals data to C:\...\data_processed\deals_processed_*.csv
+INFO:__main__:Saved processed deals data to C:\...\processed_data\deals_processed_*.csv
 INFO:__main__:PlaySmart Pipeline Completed Successfully!
 INFO:__main__:Processed 60 game deals
 ```

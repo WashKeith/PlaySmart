@@ -1,0 +1,19 @@
+PlaySmart Pipeline Execution Summary
+============================================================
+Execution Time: 2025-11-29 18:52:32
+
+Raw Data Directory: C:\Users\washk\PlaySmart\data_raw
+Processed Data Directory: C:\Users\washk\PlaySmart\data_processed
+
+Deals Summary:
+  Total Deals: 60
+  Average Discount: 96.44%
+  Max Discount: 100.00%
+
+  Deal Quality Breakdown:
+    Exceptional: 60
+
+Data Files:
+  Raw Data Files: 8
+  Processed Data Files: 8
+  Log File: C:\Users\washk\PlaySmart\logs\pipeline_20251129_185231.log

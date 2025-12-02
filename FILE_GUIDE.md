@@ -1,13 +1,13 @@
-# FinSight File Guide & Navigation
+# PlaySmart File Guide & Navigation
 
-Complete reference for every file in the FinSight project.
+Complete reference for every file in the PlaySmart project.
 
 ---
 
 ## 📁 Directory Structure
 
 ```
-FinSight/
+PlaySmart/
 ├── 📄 README.md                    ⭐ START HERE - Main documentation (6000+ words)
 ├── 📄 QUICKSTART.md                ⭐ Get running in 5 minutes
 ├── 📄 SETUP_GUIDE.md               Step-by-step installation

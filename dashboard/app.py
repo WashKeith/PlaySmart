@@ -119,7 +119,7 @@ st.markdown(
 @st.cache_data
 def load_deals_data():
     """Load the latest processed deals data"""
-    data_dir = Path(__file__).parent.parent / "data_processed"
+    data_dir = Path(__file__).parent.parent / "processed_data"
 
     # Find the latest deals file
     deals_files = sorted(data_dir.glob("deals_processed*.csv"), reverse=True)
@@ -486,7 +486,7 @@ def main():
 
     st.sidebar.markdown("---")
     st.sidebar.markdown("**Last Updated**")
-    data_dir = Path(__file__).parent.parent / "data_processed"
+    data_dir = Path(__file__).parent.parent / "processed_data"
     deals_files = list(data_dir.glob("deals_processed*.csv"))
     if deals_files:
         latest_file = max(deals_files, key=lambda p: p.stat().st_mtime)

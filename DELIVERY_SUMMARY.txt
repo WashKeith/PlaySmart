@@ -1,6 +1,6 @@
 ╔════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                  ║
-║              FinSight: Finance Market Analytics Dashboard                       ║
+║              PlaySmart: Game Deal Analytics Dashboard                           ║
 ║              Powered by Real APIs - Complete Delivery                           ║
 ║                                                                                  ║
 ╚════════════════════════════════════════════════════════════════════════════════╝
@@ -9,7 +9,7 @@
 📦 WHAT'S INCLUDED
 ═══════════════════════════════════════════════════════════════════════════════
 
-Your FinSight project is a complete, production-ready data solution with:
+Your PlaySmart project is a complete, production-ready data solution with:
 
 📊 DATA PIPELINE (4 Python Modules)
    ✅ api_config.py          - API configuration & parameters

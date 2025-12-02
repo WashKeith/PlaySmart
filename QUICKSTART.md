@@ -1,4 +1,4 @@
-# FinSight Quick Start (5 minutes)
+# PlaySmart Quick Start (5 minutes)
 
 ## 🚀 TL;DR - Get Running in 5 Steps
 
@@ -9,7 +9,7 @@
 ### 2. Clone & Setup (1 minute)
 ```bash
 # Navigate to your projects folder
-cd C:\Users\YourUsername\FinSight
+cd C:\Users\YourUsername\PlaySmart
 
 # Create virtual environment
 python -m venv venv
@@ -37,7 +37,7 @@ python pipeline.py
 
 Wait for completion message:
 ```
-FinSight Data Pipeline Completed Successfully!
+PlaySmart Data Pipeline Completed Successfully!
 ```
 
 ### 5. View Dashboard (1 minute)

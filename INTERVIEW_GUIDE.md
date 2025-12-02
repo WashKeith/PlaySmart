@@ -1,4 +1,4 @@
-# FinSight Interview Cheat Sheet
+# PlaySmart Interview Cheat Sheet
 
 ## Quick Reference for Technical Interviews
 
@@ -11,19 +11,19 @@ This guide provides polished, concise answers for common interview questions abo
 **Question**: "Tell me about your data portfolio project"
 
 **Answer**:
-"FinSight is an end-to-end finance analytics platform that demonstrates data engineering and analytics skills. It fetches real-time market data via Alpha Vantage API for stocks, cryptocurrencies, and forex, processes it through a Python ETL pipeline with data validation and feature engineering, and powers an interactive Streamlit dashboard with 5 pages of professional visualizations. The project shows my ability to build complete data solutions from raw API data to actionable business insights."
+"PlaySmart is an end-to-end game deal analytics platform that demonstrates data engineering and analytics skills. It fetches real-time game deal data via CheapShark API for popular games, processes it through a Python ETL pipeline with data validation and feature engineering, and powers an interactive Streamlit dashboard with comprehensive visualizations. The project shows my ability to build complete data solutions from raw API data to actionable business insights."
 
-**Variation for fintech interviews**:
-"I built FinSight to showcase how financial institutions like Mastercard or JPMorgan handle market data. The pipeline fetches OHLC data from APIs, validates quality, enriches with financial metrics, and surfaces insights via a web dashboard. It demonstrates end-to-end ownership—API integration, data engineering, analytics, and UI."
+**Variation for gaming/e-commerce interviews**:
+"I built PlaySmart to showcase how gaming platforms and e-commerce companies handle deal and pricing data. The pipeline fetches game deal data from APIs, validates quality, enriches with discount metrics and categorization, and surfaces insights via a web dashboard. It demonstrates end-to-end ownership—API integration, data engineering, analytics, and UI."
 
 ---
 
 ## 🔌 API & Data Fetching
 
-### Q: "Why did you choose Alpha Vantage API?"
+### Q: "Why did you choose CheapShark API?"
 
 **Answer**:
-"Alpha Vantage is the right balance for a portfolio project. It offers free access to real-time OHLCV data for stocks, cryptos, and FX without complex OAuth—just an API key. The data format is clean JSON. Trade-offs: rate limiting (5 req/min free tier), but that's realistic for most use cases. I added automatic delays in the pipeline. Alternatives like Polygon.io offer more data but cost money; IEX Cloud is harder to set up. For demonstrating skills without hitting API bills, Alpha Vantage is ideal."
+"CheapShark is the right balance for a portfolio project. It offers free, real-time access to game deal data from major stores without complex OAuth—just public access. The data format is clean JSON with rich game information. Trade-offs: rate limiting is generous for development purposes. The API is well-documented and reliable. Alternatives like RAGames or IsThereAnyDeal exist, but CheapShark has the best balance of data quality, documentation, and ease of use. For demonstrating skills without API bills, CheapShark is ideal."
 
 ### Q: "Walk me through your fetch_data.py module"
 
@@ -214,19 +214,19 @@ The modular code makes these additions feasible without major refactoring."
 ### Q: "What's the business value of this project?"
 
 **Answer**:
-"FinSight solves real problems for financial institutions:
+"PlaySmart solves real problems for gaming and e-commerce platforms:
 
-**Risk Management** (Banking): Monitor portfolio volatility across asset classes, identify high-risk concentrations, detect unusual market moves.
+**Deal Curation** (Gaming): Monitor game deal availability across stores, identify high-discount opportunities, track deal quality and legitimacy.
 
-**Treasury Operations** (Global Payments): Track FX rates for hedging decisions, monitor USD/EUR/JPY trends, quantify FX exposure.
+**Price Optimization** (E-commerce): Compare prices across retailers, identify competitive gaps, optimize pricing strategy based on competitor activity.
 
-**Trading & Investment** (Fintech): Identify market trends via moving average crossovers, spot overbought/oversold conditions with RSI, compare asset performance for allocation decisions.
+**Consumer Intelligence** (Marketing): Understand game market trends, identify which games have the best deals, forecast demand based on discount patterns.
 
-**Compliance & Reporting** (Risk): Generate historical market data for audit trails, stress test with volatility metrics, document market conditions at decision times.
+**Inventory Management** (Retail): Track which games are on sale, monitor store coverage, identify gaps in product availability.
 
-**Analytics** (All roles): Single dashboard replacing multiple vendor tools (Bloomberg, Reuters) for teams that don't need advanced features.
+**Analytics** (All roles): Single dashboard consolidating game deal data from multiple sources for teams tracking market trends.
 
-ROI: Faster decision-making, reduced tool costs, better risk visibility. For Mastercard specifically, FX tracking and global payments monitoring are high-value."
+ROI: Better deal discovery, informed pricing decisions, improved customer satisfaction through curated deals. For gaming platforms like Steam or Epic, this drives user engagement and loyalty."
 
 ### Q: "Who would use this dashboard?"
 

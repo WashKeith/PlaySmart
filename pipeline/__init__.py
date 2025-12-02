@@ -1,18 +1,18 @@
 """
-FinSight Data Pipeline Package
+PlaySmart Data Pipeline Package
 
-A production-ready ETL pipeline for financial market data.
+A production-ready ETL pipeline for game deal data.
 
 Modules:
 - api_config: API configuration and parameter management
-- fetch_data: Data fetching from Alpha Vantage API
+- fetch_data: Data fetching from CheapShark API
 - transform: Data cleaning and feature engineering
 - pipeline: Master orchestration script
 """
 
 __version__ = "1.0.0"
 __author__ = "Data Engineer"
-__description__ = "FinSight: Finance Market Analytics Dashboard"
+__description__ = "PlaySmart: Game Deal Analytics Dashboard"
 
 from .api_config import APIConfig
 from .fetch_data import DataFetcher
