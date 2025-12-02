@@ -27,40 +27,40 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │                   PlaySmart Architecture                        │
 ├─────────────────────────────────────────────────────────────────┤
-│                                                                   │
+│                                                                 │
 │  ┌──────────────────────────────────────────────────────────┐   │
 │  │           CheapShark API                                 │   │
-│  │  (90+ Game Retailers - Steam, Epic, GOG, Fanatical)     │   │
+│  │  (90+ Game Retailers - Steam, Epic, GOG, Fanatical)      │   │
 │  └──────────────────────────────────────────────────────────┘   │
-│                           ↓                                       │
+│                           ↓                                     │
 │  ┌──────────────────────────────────────────────────────────┐   │
-│  │    Data Fetching Layer (fetch_data.py)                  │   │
+│  │    Data Fetching Layer (fetch_data.py)                   │   │
 │  │  • GamePriceFetcher class                                │   │
 │  │  • Handles API requests & error handling                 │   │
 │  │  • Returns pandas DataFrames                             │   │
 │  └──────────────────────────────────────────────────────────┘   │
-│                           ↓                                       │
+│                           ↓                                     │
 │  ┌──────────────────────────────────────────────────────────┐   │
-│  │   Data Processing Layer (transform.py)                  │   │
+│  │   Data Processing Layer (transform.py)                   │   │
 │  │  • Data validation & cleaning                            │   │
 │  │  • Discount percentage calculation                       │   │
 │  │  • Deal quality categorization                           │   │
 │  │  • GameDataTransformer class                             │   │
 │  └──────────────────────────────────────────────────────────┘   │
-│                           ↓                                       │
+│                           ↓                                     │
 │  ┌──────────────────────────────────────────────────────────┐   │
 │  │   Processed Data Storage (data_processed/)               │   │
 │  │  • Clean, enriched datasets as CSV files                 │   │
 │  │  • Ready for analysis and visualization                  │   │
 │  └──────────────────────────────────────────────────────────┘   │
-│                           ↓                                       │
+│                                                                 │
 │  ┌──────────────────────────────────────────────────────────┐   │
 │  │    Streamlit Dashboard (dashboard/app.py)                │   │
 │  │  • 3 interactive pages                                   │   │
 │  │  • Deal analysis & filtering                             │   │
 │  │  • Store comparison analytics                            │   │
 │  └──────────────────────────────────────────────────────────┘   │
-│                                                                   │
+│                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
